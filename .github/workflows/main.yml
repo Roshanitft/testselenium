@@ -1,4 +1,4 @@
-name: scrape
+name: selenium
 on:
   workflow_dispatch:
 jobs:
