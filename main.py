@@ -21,5 +21,5 @@ for option in options:
 
 driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
 
-driver.get('https://www.google.com')
+driver.get('https://www.facebook.com')
 print(driver.title)
