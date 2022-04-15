@@ -21,5 +21,5 @@ for option in options:
 
 driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
 
-driver.get('https://www.amazon.in')
+driver.get('https://www.google.com')
 print(driver.title)
