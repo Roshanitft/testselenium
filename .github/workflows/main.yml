@@ -1,4 +1,4 @@
-name: selenium
+name: ${{ gituhubs.event.inputs.Env }}
 on:
   workflow_dispatch:
     inputs:
