@@ -1,6 +1,14 @@
 name: selenium
 on:
   workflow_dispatch:
+    inputs:
+      Env:
+        type: choice
+        description: 'choose Enviornment' 
+        options: 
+        - dev
+        - stg
+        required: true
 jobs:
   scrape:
     runs-on: ubuntu-latest
