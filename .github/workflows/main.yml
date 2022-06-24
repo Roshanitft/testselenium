@@ -1,4 +1,4 @@
-name: ${{ gituhubs.event.inputs.Env }}
+name: ${{ github.event.inputs.Env }}
 on:
   workflow_dispatch:
     inputs:
